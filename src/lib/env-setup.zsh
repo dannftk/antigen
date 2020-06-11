@@ -11,7 +11,7 @@
 
   # Pre-startup initializations.
   -antigen-set-default ANTIGEN_OMZ_REPO_URL \
-    https://github.com/robbyrussell/oh-my-zsh.git
+    https://github.com/dannftk/ohmyzsh.git
   -antigen-set-default ANTIGEN_PREZTO_REPO_URL \
     https://github.com/sorin-ionescu/prezto.git
   -antigen-set-default ANTIGEN_DEFAULT_REPO_URL $ANTIGEN_OMZ_REPO_URL
@@ -50,7 +50,7 @@
 
   # Add default built-in extensions to load at start up
   -antigen-set-default _ANTIGEN_BUILTIN_EXTENSIONS 'lock parallel defer cache'
-  
+
   # Set up configured theme
   -antigen-set-default _ANTIGEN_THEME ''
 
